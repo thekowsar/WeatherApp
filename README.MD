@@ -1,4 +1,4 @@
-# Weather Application
+# Weather Cast
 
 This is the job interview task for software developer position
 
@@ -12,6 +12,10 @@ This is the job interview task for software developer position
 
 ## Database Used
 * H2 Database (in-memory)
+* URL : http://localhost:8080/h2-console
+* JDBC URL : jdbc:h2:mem:testdb
+* User: sa
+* Password: password
 
 ## Login Credential
 * username: user

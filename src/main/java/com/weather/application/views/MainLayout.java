@@ -31,7 +31,7 @@ public class MainLayout extends AppLayout{
         logoImage.setWidth("70px");
         logoImage.setHeight("70px");
 
-        H1 logo = new H1("Weather App");
+        H1 logo = new H1("Weather Cast");
 
         logo.addClassNames("text-l", "m-m");
 
@@ -47,7 +47,7 @@ public class MainLayout extends AppLayout{
     }
 
     private void createDrawre() {
-        RouterLink listView = new RouterLink("List", ListView.class);
+        RouterLink listView = new RouterLink("Cities (W. Cast)", ListView.class);
         listView.setHighlightCondition(HighlightConditions.sameLocation());
 
         addToDrawer(new VerticalLayout(
